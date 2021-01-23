@@ -15,4 +15,7 @@ const Test = db.define('test', {
 
 Test.belongsTo(Student, { as: 'student' });
 
+//console.log(Object.keys(Test.prototype)) 
+// shows all magic methods
+
 module.exports = Test;
